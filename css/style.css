@@ -1,0 +1,61 @@
+.container-fluid{
+  padding: 3% 3% 3% 10%;
+  font-family: "Montserrat";
+}
+
+.navbar-toggler {
+  color: #FFF;
+  border: none;
+}
+
+.navbar-brand-head {
+  color: #FFF;
+  font-size: 1.5rem;
+}
+
+.nav-link-white, .navbar-brand-head{
+  color: #FFF;
+}
+
+.nav-link-black{
+  color: #000;
+}
+
+.nav-item{
+  padding: 0 15px;
+}
+
+
+.mainImage{
+  width: 72vw;
+}
+
+.img-text{
+  color: #FFF;
+  line-height: 1.2;
+  width: 30%;
+  position: absolute;
+  top: 35%;
+  left: 42%;
+  font-weight: 500;
+  font-size: 6rem;
+}
+
+@media (max-width: 780px){
+  .mainImage{
+    width: 100vw;
+  }
+  .img-text{
+    color: #FFF;
+    line-height: 1;
+    width: 30%;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    font-weight: 500;
+    font-size: 3.8rem;
+  }
+  .nav-link-black{
+    color: #FFF;
+  }
+}
